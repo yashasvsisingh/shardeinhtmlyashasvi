@@ -1,0 +1,125 @@
+body {
+	margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: khaki;
+    height: 70px;
+    
+}
+
+.topic {
+    float: left;
+    display: block;
+    font-size: 1.5em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: purple;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-right: 80px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+}
+
+.nav {
+    float: right;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+li {
+    float: left;
+    padding: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.hero {
+    background: url("../img/davai.jpg");
+    position: relative;
+    min-height: 450px;
+    height: 100vh;
+    z-index: -1;
+    background-size: cover;
+}
+
+#mainName {
+    width: 0px;
+    margin: 0px;
+    text-align: center;
+    color: lime ;
+}
+
+h1 {
+    padding: 0px;
+    width: 0px;
+    margin: 0px;
+    top: 50%;
+    left: 36%;
+    position: absolute;
+    color: gold;
+    font-size: 72px;
+}
+.firstTable {
+	color: #333;
+	font-family: helvetica, arial, sans-serif;
+	width: 640px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th {  
+    
+    font-weight: bold;
+}
+
+td {  
+    text-align: center;
+    line-height: 45px;
+}
+table {
+	text-align: center;	
+}
+
+
+.details {
+	float: left;
+	width: 50%;
+	height: 264px;
+	margin: 0px;
+	padding: 0px;
+	background-color: lawngreen;
+}
+.parent {
+	float:left;
+	width:50%;
+	margin: 0px;
+	padding: 0px;
+	height: 264px;
+	background-color: deepskyblue ;
+}
+.formDiv {
+	text-align: center;
+	padding: 50px 20px 0px 20px;
+	clear: both;
+	width: 100%;
+}
+
+footer {
+	clear: both;
+    background-color:greenyellow ;
+    height: 40px;
+    }
+
+#copyright {
+	text-align: center;
+	padding: 20px 20px 0px 20px;
+}
